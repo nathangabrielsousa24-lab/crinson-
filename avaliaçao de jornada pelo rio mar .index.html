@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Jornada pelo Rio Mar - Resenha</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Georgia,serif;
+}
+
+
+body{
+
+background:#050505;
+color:white;
+overflow-x:hidden;
+
+}
+
+
+/* Fundo de páginas */
+
+.background{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+overflow:hidden;
+z-index:-1;
+background:#050505;
+
+}
+
+
+.texto{
+
+position:absolute;
+width:450px;
+color:rgba(255,255,255,0.07);
+font-size:26px;
+line-height:1.6;
+animation:subir 25s linear infinite;
+
+}
+
+
+@keyframes subir{
+
+0%{
+
+transform:translateY(110vh);
+
+}
+
+100%{
+
+transform:translateY(-120vh);
+
+}
+
+}
+
+.botao-coraline{
+
+display:block;
+width:320px;
+margin:40px auto;
+
+padding:18px;
+
+background:linear-gradient(45deg,#8b0000,#ff0000);
+
+color:white;
+text-align:center;
+
+font-size:20px;
+font-weight:bold;
+
+text-decoration:none;
+
+border-radius:15px;
+
+border:2px solid #ff4444;
+
+box-shadow:
+0 0 15px red,
+0 0 30px rgba(255,0,0,0.5);
+
+transition:0.3s;
+
+}
+
+
+.botao-coraline:hover{
+
+transform:scale(1.08);
+
+background:linear-gradient(45deg,#ff0000,#660000);
+
+box-shadow:
+0 0 25px red,
+0 0 50px red;
+
+}
+
+/* Cabeçalho */
+
+
+header{
+
+padding:45px;
+text-align:center;
+background:rgba(0,0,0,0.8);
+border-bottom:1px solid red;
+
+}
+
+
+header h1{
+
+font-size:48px;
+color:#ff0000;
+text-shadow:0 0 15px red;
+
+}
+
+
+header p{
+
+margin-top:15px;
+font-size:20px;
+
+}
+
+
+
+/* Área principal */
+
+
+.livro{
+
+width:90%;
+max-width:1000px;
+margin:50px auto;
+background:rgba(0,0,0,0.88);
+border:1px solid red;
+border-radius:25px;
+padding:45px;
+box-shadow:0 0 30px rgba(255,0,0,0.25);
+
+}
+
+
+.capa{
+
+width:280px;
+display:block;
+margin:auto;
+border-radius:15px;
+box-shadow:0 0 30px red;
+
+}
+
+
+h2{
+
+color:red;
+font-size:30px;
+margin-top:40px;
+border-bottom:1px solid rgba(255,0,0,.5);
+padding-bottom:10px;
+
+}
+
+
+p{
+
+font-size:19px;
+line-height:2;
+color:#eeeeee;
+
+}
+
+
+
+.nota{
+
+text-align:center;
+font-size:25px;
+color:#ff3333;
+margin:20px;
+
+}
+
+
+
+/* Comentários */
+
+
+.comentarios{
+
+margin-top:30px;
+
+}
+
+
+input,textarea{
+
+width:100%;
+background:#111;
+border:1px solid red;
+border-radius:10px;
+padding:15px;
+color:white;
+font-size:16px;
+margin-top:15px;
+
+}
+
+
+textarea{
+
+height:150px;
+
+}
+
+
+button{
+
+margin-top:15px;
+background:red;
+color:white;
+border:none;
+padding:15px 30px;
+border-radius:10px;
+font-size:17px;
+cursor:pointer;
+
+}
+
+
+button:hover{
+
+background:#990000;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+<div class="background">
+
+
+<div class="texto">
+"Os grandes livros são portas para lugares que nunca visitamos..."
+</div>
+
+
+<div class="texto" style="left:25%;animation-delay:6s">
+
+"Cada página guarda uma memória, cada capítulo guarda uma descoberta..."
+
+</div>
+
+
+<div class="texto" style="left:55%;animation-delay:12s">
+
+"Algumas histórias terminam no papel, outras continuam vivendo dentro de nós..."
+
+</div>
+
+
+<div class="texto" style="left:75%;animation-delay:18s">
+
+"A maior aventura começa quando abrimos um livro..."
+
+</div>
+
+
+</div>
+
+
+
+<header>
+
+<h1>Jornada pelo Rio Mar</h1>
+
+<p>Uma viagem pelas páginas de uma grande aventura</p>
+
+</header>
+
+
+
+
+<section class="livro">
+
+
+
+<img class="capa" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1kNh1AAIJGqlHbNM1pBDw0qOGJfuM_iWjC3g2hypKaA&s=10">
+
+
+
+<h2>Minha Recomendação</h2>
+
+
+<p>
+
+Existem livros que simplesmente contam uma história, mas existem aqueles que
+fazem o leitor sentir que está vivendo aquela experiência junto com os
+personagens. "Jornada pelo Rio Mar" pertence a esse segundo grupo.
+
+A obra apresenta uma viagem cheia de descobertas, onde o rio deixa de ser
+apenas um caminho e se transforma em um símbolo de aventura, mudança e
+aprendizado.
+
+É uma leitura que convida o leitor a abandonar a rotina por alguns momentos e
+embarcar em um mundo diferente, onde cada página representa uma nova parte da
+jornada.
+
+</p>
+
+
+
+<h2>Avaliação Completa</h2>
+
+
+<div class="nota">
+
+★★★★★<br>
+Nota: 5/5
+
+</div>
+
+
+<p>
+
+
+Avaliar "Jornada pelo Rio Mar" é como tentar explicar uma viagem que marcou
+uma pessoa. Não é apenas sobre o lugar para onde vamos, mas sobre tudo aquilo
+que sentimos durante o caminho.
+
+O livro possui uma característica especial: ele consegue transformar detalhes
+simples em momentos importantes. A passagem pelo rio, os desafios encontrados
+e as descobertas feitas pelos personagens criam uma atmosfera onde o leitor
+sente vontade de continuar acompanhando a aventura.
+
+Um dos maiores pontos positivos da obra é a imaginação que ela desperta.
+Enquanto lemos, conseguimos criar imagens dos lugares apresentados e imaginar
+cada cena acontecendo diante dos nossos olhos.
+
+A história também mostra que uma jornada pode ensinar muito mais do que
+esperamos. Durante o caminho, aprendemos sobre coragem, curiosidade e sobre a
+importância de aproveitar cada experiência.
+
+Na minha opinião, o livro se destaca porque não tenta ser apenas uma aventura.
+Ele possui uma mensagem maior: todos nós estamos em uma grande viagem chamada
+vida, e cada momento pode nos transformar de alguma maneira.
+
+O que mais gostei nessa obra é a sensação que ela deixa depois da leitura.
+É como fechar o livro, mas ainda continuar pensando naquele mundo, naquela
+viagem e nas lições que a história trouxe.
+
+"Jornada pelo Rio Mar" é recomendado para quem gosta de histórias que misturam
+aventura, emoção e descoberta. É uma leitura que consegue levar o leitor para
+longe sem precisar sair do lugar.
+
+</p>
+
+
+
+<h2>Sobre o Autor</h2>
+
+
+<p>
+
+O autor constrói uma narrativa envolvente, utilizando a aventura como uma forma
+de explorar sentimentos, descobertas e transformações. Sua escrita busca
+aproximar o leitor dos personagens e fazer com que cada momento da história
+tenha significado.
+
+</p>
+
+
+
+<h2>Resumo</h2>
+
+
+<p>
+
+A história acompanha uma jornada marcada por desafios, encontros e novas
+experiências. Ao longo do caminho, os personagens descobrem que uma viagem não
+é feita apenas pelo destino, mas por tudo aquilo que acontece durante o
+percurso.
+
+</p>
+
+
+
+<h2>Comentários dos Leitores</h2>
+
+
+
+<div class="comentarios">
+
+
+<input placeholder="Seu nome">
+
+
+<textarea placeholder="Conte sua opinião sobre o livro"></textarea>
+
+
+<button>Enviar comentário</button>
+
+
+</div>
+
+
+</section>
+
+
+<a href="file:///C:/Users/LENOVO/Videos/avalia%C3%A7ao%20coraline2.index.html" class="botao-coraline">
+    Avaliação do livro Coraline
+</a>
+</body>
+
+</html>
+
+<h1>CRIADOR DA AVALIAÇAO NATHAN G. <h1>
