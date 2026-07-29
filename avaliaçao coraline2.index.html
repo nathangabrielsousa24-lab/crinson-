@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Coraline - Avaliação</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Georgia,serif;
+}
+
+
+body{
+
+background:#050505;
+color:white;
+overflow-x:hidden;
+
+}
+
+
+/* Fundo com textos */
+
+.background{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:-1;
+overflow:hidden;
+background:#050505;
+
+}
+
+
+.texto{
+
+position:absolute;
+width:450px;
+color:rgba(255,255,255,0.07);
+font-size:26px;
+line-height:1.6;
+animation:mover 25s linear infinite;
+
+}
+
+
+@keyframes mover{
+
+0%{
+transform:translateY(110vh);
+}
+
+100%{
+transform:translateY(-120vh);
+}
+
+}
+
+
+
+/* Cabeçalho */
+
+header{
+
+padding:45px;
+text-align:center;
+background:rgba(0,0,0,0.85);
+border-bottom:1px solid red;
+
+}
+
+
+header h1{
+
+font-size:50px;
+color:red;
+text-shadow:0 0 15px red;
+
+}
+
+
+header p{
+
+font-size:20px;
+
+}
+
+
+
+/* Caixa principal */
+
+.livro{
+
+width:90%;
+max-width:1000px;
+margin:50px auto;
+background:rgba(0,0,0,0.88);
+border:1px solid red;
+border-radius:25px;
+padding:45px;
+box-shadow:0 0 30px rgba(255,0,0,.3);
+
+}
+
+.botao-voltar a avaliaçao de JORNADA PELO RIO MAR{
+
+display:block;
+width:320px;
+margin:40px auto;
+
+padding:18px;
+
+background:linear-gradient(45deg,#8b0000,#ff0000);
+
+color:white;
+text-align:center;
+
+font-size:20px;
+font-weight:bold;
+
+text-decoration:none;
+
+border-radius:15px;
+
+border:2px solid #ff4444;
+
+box-shadow:
+0 0 15px red,
+0 0 30px rgba(255,0,0,0.5);
+
+transition:0.3s;
+
+}
+
+
+.botao-voltar{
+
+display:block;
+width:420px;
+margin:50px auto 20px;
+
+padding:18px;
+
+background:linear-gradient(45deg,#8b0000,#ff0000);
+
+color:white;
+text-align:center;
+
+font-size:18px;
+font-weight:bold;
+
+text-decoration:none;
+
+border-radius:15px;
+
+border:2px solid #ff4444;
+
+box-shadow:
+0 0 15px red,
+0 0 30px rgba(255,0,0,0.5);
+
+transition:0.3s;
+
+}
+
+
+.botao-voltar:hover{
+
+transform:scale(1.08);
+
+background:linear-gradient(45deg,#ff0000,#660000);
+
+box-shadow:
+0 0 25px red,
+0 0 50px red;
+
+}
+
+}
+
+/* Capa do livro */
+
+.capa-coraline{
+
+width:280px;
+height:400px;
+margin:auto;
+display:block;
+
+border-radius:15px;
+overflow:hidden;
+
+border:3px solid red;
+
+box-shadow:
+0 0 30px red;
+
+}
+
+
+.capa-coraline img{
+
+width:100%;
+height:100%;
+object-fit:cover;
+
+}
+
+
+
+
+/* Textos */
+
+h2{
+
+color:red;
+font-size:30px;
+margin-top:40px;
+border-bottom:1px solid red;
+padding-bottom:10px;
+
+}
+
+
+p{
+
+font-size:19px;
+line-height:2;
+
+}
+
+
+
+.nota{
+
+text-align:center;
+font-size:25px;
+color:#ff3333;
+margin:25px;
+
+}
+
+
+
+/* Comentários */
+
+input,
+textarea{
+
+width:100%;
+background:#111;
+border:1px solid red;
+border-radius:10px;
+
+padding:15px;
+color:white;
+
+margin-top:15px;
+
+}
+
+
+textarea{
+
+height:150px;
+
+}
+
+
+button{
+
+margin-top:15px;
+
+background:red;
+color:white;
+
+border:none;
+
+padding:15px 30px;
+
+border-radius:10px;
+
+font-size:17px;
+
+cursor:pointer;
+
+}
+
+
+button:hover{
+
+background:#990000;
+
+}
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+
+<div class="background">
+
+
+<div class="texto">
+
+"Algumas portas escondem mundos que nunca imaginamos..."
+
+</div>
+
+
+<div class="texto" style="left:30%;animation-delay:6s">
+
+"Nem todo mistério deve ser descoberto..."
+
+</div>
+
+
+<div class="texto" style="left:60%;animation-delay:12s">
+
+"Grandes histórias vivem entre o medo e a imaginação..."
+
+</div>
+
+
+<div class="texto" style="left:80%;animation-delay:18s">
+
+"Um livro pode revelar mundos escondidos..."
+
+</div>
+
+
+</div>
+
+
+
+
+<header>
+
+<h1>Coraline</h1>
+
+<p>Uma aventura misteriosa entre dois mundos</p>
+
+</header>
+
+
+
+
+<section class="livro">
+
+
+
+<div class="capa-coraline">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLoqEC6dsC3oo8K6ojYLeDYnEXrXXnhNp0xW_xmKexOw&s=10"Capa do livro Coraline">
+
+</div>
+
+
+
+
+<h2>Minha Recomendação</h2>
+
+<p>
+
+"Coraline" é uma história que consegue misturar mistério, fantasia e uma
+atmosfera sombria de uma maneira única.
+
+O livro leva o leitor para uma aventura onde a curiosidade abre uma porta para
+um mundo diferente, cheio de descobertas e segredos.
+
+A obra mostra que nem sempre aquilo que parece perfeito é realmente aquilo que
+precisamos, e que muitas vezes devemos valorizar aquilo que já temos.
+
+</p>
+
+
+
+
+<h2>Avaliação Completa</h2>
+
+
+<div class="nota">
+
+★★★★★
+
+<br>
+
+Nota: 5/5
+
+</div>
+
+
+
+<p>
+
+"Coraline" é uma daquelas histórias que permanecem na memória mesmo depois do
+fim da leitura.
+
+O maior destaque do livro é a atmosfera criada pelo autor. A cada página
+existe uma sensação de mistério, como se sempre houvesse algo escondido
+esperando para ser descoberto.
+
+A protagonista, Coraline, é uma personagem muito especial porque ela não é
+corajosa por nunca sentir medo. Ela é corajosa porque, mesmo sentindo medo,
+decide enfrentar aquilo que está diante dela.
+
+Essa é uma das maiores mensagens da história: coragem não significa ausência
+de medo, significa encontrar força para continuar.
+
+Outro ponto incrível é o mundo alternativo criado no livro. No começo ele
+parece ser um lugar perfeito, mas aos poucos revela que existem perigos por
+trás daquela aparência bonita.
+
+Na minha opinião, "Coraline" é muito mais do que uma história de fantasia.
+Ele fala sobre família, escolhas, coragem e sobre perceber o verdadeiro valor
+das coisas simples.
+
+O livro consegue fazer o leitor sentir curiosidade, tensão e emoção ao mesmo
+tempo. É uma experiência diferente, porque mistura elementos sombrios com uma
+mensagem muito humana.
+
+Depois de terminar a leitura, fica aquela sensação de que uma pequena porta foi
+aberta para outro mundo e que aquela aventura continua vivendo na imaginação.
+
+É uma recomendação perfeita para quem gosta de mistério, fantasia e histórias
+que conseguem ser assustadoras e bonitas ao mesmo tempo.
+
+</p>
+
+
+
+
+<h2>Sobre o Autor</h2>
+
+<p>
+
+Neil Gaiman é um autor conhecido por criar histórias que misturam fantasia,
+mistério e elementos sombrios.
+
+Sua escrita consegue transformar situações comuns em aventuras extraordinárias,
+criando mundos únicos e personagens marcantes.
+
+</p>
+
+
+
+
+<h2>Resumo</h2>
+
+<p>
+
+Coraline é uma garota curiosa que descobre uma passagem secreta em sua casa.
+Do outro lado existe uma versão diferente da sua vida, aparentemente perfeita.
+
+Porém, ela percebe que esse novo mundo esconde segredos perigosos e precisa usar
+sua coragem e inteligência para enfrentar esse mistério.
+
+</p>
+
+
+
+
+<h2>Comentários dos Leitores</h2>
+
+
+<input placeholder="Seu nome">
+
+
+<textarea placeholder="Conte sua opinião sobre Coraline"></textarea>
+
+
+<button>Enviar comentário</button>
+
+<a href="file:///C:/Users/LENOVO/Videos/avalia%C3%A7ao%20de%20jornada%20pelo%20rio%20mar%20.index.html" class="botao-voltar">
+    Voltar à avaliação do livro Jornada pelo Rio Mar
+</a>
+
+</section>
+
+
+
+</body>
+
+</html>
